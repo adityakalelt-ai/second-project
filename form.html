@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="form.css">
+    <script>
+      document.getElementById("form").addEventListener("submit", function(event){
+    event.preventDefault();
+    let name = 
+    document.getElementsByClassName("a").value;
+
+    let password = 
+    document.getElementsByClassName("b").value;
+
+    alert("Tere Bap Ki Website Hai Kya");})
+    </script>
+</head>
+<body>
+
+      <div class="box"> 
+        <div class="title">
+          <h2>Sign-Up</h2>
+        </div>
+        <div class="form">
+            <form id="form">
+              <div id="input">
+                <div class="input1"><input class="a" type="email" placeholder="enter your email"></div>
+                <div class="input2"><input class="a" type="password" placeholder="set the password"></div>
+              </div>
+              <div id="submit">
+                <div class="submit"><input placeholder="DONE" class="sbmt"b type="submit"></div>
+                <div class="check"><input id="check" type="checkbox"><p class="text"> Save Login Info </p></div>
+              </div>
+            </form>
+        </div>
+      </div>
+</body>
+</html>
